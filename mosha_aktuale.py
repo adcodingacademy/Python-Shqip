@@ -1,4 +1,3 @@
-
 # 1. Importimi i modulit date class datetime 
 from datetime import date
 
@@ -8,5 +7,5 @@ data_sotme = date.today()
 
 
 ditëlindja = int (input("Shkruaj vitin e lindjes: "))
-mosha = ditëlindja - data_sotme.year
+mosha = data_sotme.year - ditëlindja
 print("Mosha juaj është: ", mosha)
